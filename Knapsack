@@ -39,8 +39,8 @@ int knapsack(int W, int wt[], int profit[], int n) {
 }
 
 int main() {
-    int profit[] = {12, 10, 20, 15}; // profits (values)
-    int wt[] = {2, 1, 3, 2};         // weights
+    int profit[] = {60,100,120}; // profits (values)
+    int wt[] = {10,20,30};         // weights
     int m = 5;                       // knapsack capacity
     int n = sizeof(profit) / sizeof(profit[0]);
 
